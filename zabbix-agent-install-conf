@@ -1,0 +1,13 @@
+PidFile=/var/run/zabbix/zabbix_agentd.pid
+LogFile=/var/log/zabbix/zabbix_agentd.log
+LogFileSize=0
+AllowRoot=1
+HostMetadataItem=system.uname
+Server=#Enter Zabbix Server hostname
+ServerActive=#Enter Zabbix Server hostname
+EnableRemoteCommands=1
+Hostname=
+Include=/etc/zabbix/zabbix_agentd.d/
+
+####### USER-DEFINED MONITORED PARAMETERS #######
+
